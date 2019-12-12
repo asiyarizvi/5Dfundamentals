@@ -1,0 +1,102 @@
+<!DOCTPYE html>
+<html>
+  <head>
+    <style>
+
+    .container {
+    width: 484px;
+    height: 588px;
+    background: url("ocean.gif");
+    padding-top: 130px;
+    }
+
+    .links {
+      color: OliveDrab;
+      text-decoration: none;
+      font: sans-serif;
+      font-family: Helvetica;
+      font-size: 18px;
+      margin-left: 400px;
+      margin-top: 550px;
+    }
+
+    .links:hover {
+      color: DarkOliveGreen;
+    }
+
+
+
+    .leavesPos {
+    	animation-name: move_2;
+    	animation-direction: normal;
+    	animation-delay: .5s;
+    	animation: move_2 12.0s 1;
+    	position: relative;
+    	width: 114px;
+    	height: 64px;
+    	left: 0px;
+    	top: 100px;
+    }
+
+
+    .text1Pos {
+    	animation-name: move_3;
+    	animation-direction: normal;
+    	animation-delay: .5s;
+    	animation: move_3 8.0s 1;
+    	position: relative;
+    	left: 15px;
+    	top: -550px;
+      color: White;
+      font-family: Helvetica;
+      font-size: 25px;
+    }
+
+
+    .text2Pos {
+    	animation-name: move_4;
+    	animation-direction: normal;
+    	animation-delay: .5s;
+    	animation: move_4 8.0s 1;
+    	position: relative;
+    	left: 30px;
+    	top: -290px;
+      color: White;
+      font-family: Helvetica;
+      font-size: 25px;
+    }
+
+    @keyframes move_2 {
+    	0%   {left: 0px; top: -852px; opacity: 1;}
+    	50%  {left: 0px; top: -400px; opacity: 1;}
+      100%  {left: 0px; top: 100px; opacity: 1;}
+    }
+
+    @keyframes move_3 {
+      0%   {left: -430px; top: -550px; opacity: 1;}
+      100%  {left: 15px; top: -550px; opacity: 1;}
+    }
+
+    @keyframes move_4 {
+      0%   {left: 490px; top: -290px; opacity: 1;}
+      50%   {left: 490px; top: -290px; opacity: 1;}
+      100%  {left: 30px; top: -290px; opacity: 1;}
+    }
+
+    </style>
+
+  </head>
+
+    <body>
+    <div class="container">
+
+    <div class="links">earth.</div>
+    <div class="leavesPos"><img src = "leaves2.svg" width = 200px height = 150px></div>
+    <div class="text1Pos">THE EARTH NEEDS NOT OUR HELP,</div>
+    <div class="text2Pos">BUT OUR WILLINGNESS TO FIX OUR MISTAKES.</div>
+
+</div>
+
+    </body>
+
+</html>
